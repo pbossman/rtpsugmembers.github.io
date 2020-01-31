@@ -1,96 +1,82 @@
-# Helium Jekyll
-## A new Bootstrap 4 theme
+#How to add yourself to RTPSUGMembers
+###Prerequisites: VSCode, Git
+1. We will start by forking the RTPSUGMembers repository. From the RTPSUGMembers [repo](https://github.com/RTPSUGMembers/rtpsugmembers.github.io) Click the Fork button in the top right corner.
+![Fork Click](/assets/images/readme/Capture1.png)
+2. After the page refreshes you should notice that instead of saying:
 
-## The project is no longer mantained
+    ![Fork1](/assets/images/readme/fork1.png)
 
-<a href="https://jekyll-themes.com">
-    <img src="https://img.shields.io/badge/featured%20on-JT-red.svg" height="20" alt="Jekyll Themes Shield" >
-</a>
+    It should now say (with RTPSUGTest being your username):
 
-Helium is a fast, modern and configurable [Jekyll](http://jekyllrb.com/) theme with some tricks up it's sleeve. It has a live theme switcher and it's main blog layout display prominent hero images for posts with colored overlays and nice animations.
+    ![Fork2](/assets/images/readme/fork2.png)
 
-[Bootstrap theme source](https://uideck.com/products/helium-ui-kit/)
+    (Optional) If you arent already using github pages on your account you can preview this page by changing the repository name to match your username.
+    - Go to Settings
+    - Change the Repository name to "(Your UserName).github.io"
+    ![Rename Repo](/assets/images/readme/Capture2.png)
+You can then point your browser to "(Your UserName).github.io" to view the page.
 
-![helium sample](https://raw.githubusercontent.com/heliumjk/heliumjk.github.io/master/assets/images/helium-screenshot.jpg)
-![helium theme](https://raw.githubusercontent.com/heliumjk/heliumjk.github.io/master/assets/images/helium-screenshot1.jpg)
+    ### You have officially Forked a Repo!
 
-## Features
-Though minimalistic-looking by nature, dactl is easily configurable and includes quite a lot of niceties:
+3. Next we will clone the repository. Any directory on your local system should work but for our example we will use C:\repo
+    - Click Clone or Download and copy the http:// address provided.
+    ![Clone Repo](/assets/images/readme/Capture3.png)
+    - Open PowerShell
 
-Main features:
-* [Bootstrap 4](https://v4-alpha.getbootstrap.com/)
-* [Font Awesome](http://fontawesome.io/)
-* 100+ UI Blocks
-* Responsive design
+    ```powershell
+    New-Item -Type Directory C:\repo
+    Set-Location C:\repo
+    git clone https://github.com/RTPSUGTest/rtpsugtest.github.io.git
+    #Replace URL above with URL that you copied from Github
+    Set-Location C:\repo\rtpsugtest.github.io\
+    #Replace rtpsugtest.github.io with your repository name
+    ```
 
-Jekyll-specific features:
-* Fully compatible with Jekyll 3.x and GitHub Pages
-* SEO optimized
-* [Google Analytics](https://www.google.com/analytics/) support
-* [Google AdSense](https://www.google.com/adsense/start/) support
-* [Disqus](https://disqus.com/) comments support
+    ![Console](/assets/images/readme/console1.png)
 
-Other features:
-* Blog page
-* Landing page samples
-* Tags functionality and tags pages
-* Link posts functionality
-* Mobile slider scrolling
-* Emoji support ⚡️⚡️⚡️ by copy paste from [getemoji](http://getemoji.com/)
+    If successful it should look like the above console.
+    
+    We have now copied the repository from Github down to our local machine. We can make changes and then push them back up.
 
-Some of the features listed above can be easily configured or disabled by you.
+4. Next we will create a branch. Branches are used as a place to make changes that will not break your working code in Master.
 
-## Information about Helium
-At it's core, dactl is a forked version of [sentenza](https://github.com/sentenza/jekyll-material-design) but it has been almost entirely rewritten from scratch.  
-I have just started my journey in the world of web development, learning new things on the way.  
-Looking for a way to put my newly acquired skills to test I found Jekyll and I quickly realized that it's going to be a good learning experience since I don't like building 'dummy' projects.  
-I've built this theme as a way to develop my skills further.
+    - From the PowerShell Console run:
+    `git checkout -b AddMember'
 
-You can find credits at the bottom of this Readme file.  
-**All** feedback is welcome, both positive and negative.
+    ![Console](/assets/images/readme/console1.png)
 
-## Installation
-### Running locally
-Assuming you've got Jekyll [installed](https://jekyllrb.com/docs/installation/), clone or download this repo, `cd` into the folder and run `jekyll serve`.
+5. Now lets add our content and information page for ourselves in the members section of the website.
+    - From the PowerShell Console in your local git folder run:
+    ```powershell
+    copy-item .\_members\template.md .\_members\YourName.md
+    notepad .\_members\YourName.md
+    ```
+    Make sure to change 'YourName.md' to your name or something unique and identifiable.
 
-### Hosting on GitHub
-Fork this repo and rename it to `yourusername.github.io`... and edit the `_config.yaml` file whit your github address and your links (such as social media username, email, name, ecc.)!  
-Your new helium-themed Jekyll blog should be up and running at yourusername.github.io.  
+    - In notepad replace or remove all the relevant fields. Make sure to save when you are done.
+    - The Image field will be a jpg that we will add in the next step make sure the name is unique, if you dont want to use your own image you can use sample.jpg, sample2.jpg, sample3.jpg, or sample4.jpg and skip the next step.
 
+    ![Console](/assets/images/readme/notepad1.png)
 
-## Additional information about some features
-### Hero images and blog layout
-Liquid 'script' which is used to append correct hero image and overlay color as set in post YAML Front matter was written by me and while it's really basic it functions properly.  
-You can read more about it and see the code in `include/utils/hero.html`.
+6. Adding our image. As mentioned above you can use one of the samples. If you use your own image:
+    - Please only add images of yourself
+    - Images should be *appropriate*
+    - Make sure the image is reasonably sized (400x400)
+    - Add the image to C:\repo\rtpsugtest.github.io\assets\images\members\
+7. Now we will push our changes back into git hub.
 
-#### Tags & Tags Pages
-Tags and tag pages are supported by using Jekyll's native collections functionality.  
+    - Go back to the PowerShell console, if you closed the console youll need to navigate back to your local repository folder.
 
-## Credits
-### Resources used
-- [Helium B4](https://uideck.com/products/helium-ui-kit/)
-- [Font Awesome](http://fontawesome.io/)
-- [Bootstrap 4](https://v4-alpha.getbootstrap.com/)
+    ```powershell
+    Set-Location C:\repo\rtpsugtest.github.io\
+    #Replace rtpsugtest.github.io with your repository name
+    ```
+    - We need to check in all of our changes
+    - Commit them to our local repository
+    - Push them to the remote repository (Github)
 
-### Inspiration and thoughtful code-jacking
-Inspiration and bits of things listed below are present inside dactl's code:
-- [Daktilo](https://github.com/kronik3r/daktilo) - dactl is based on Daktilo and inherits it's one-column layout.
-- [Hydejack](https://github.com/qwtel/hydejack/) - I've learned a lot about Jekyll when I took apart [@qwtel](https://github.com/qwtel/)'s excellent fork of [Hyde](https://github.com/poole/hyde) theme. I embraced his more partials = everything is easier to edit policy. Hydejack theme gave me an idea on how to create hero images liquid scripting, loading google fonts and using rem's/em's and more.
-- [Minimal Mistakes](https://github.com/mmistakes/minimal-mistakes) - This guy makes awesome themes and writes a lot about Jekyll and it's more obscure use cases on his blog, [Made Mistakes](https://mademistakes.com). Looking through his theme's code - Minimal Mistakes in particular - gave me lot of information about how to build a robust theme and how to make it configurable within `_config.yml`
-- [Trophy](https://github.com/thomasvaeth/trophy-jekyll) - Link border slide animation SASS mixin which I slightly modified to be able to easily change the direction of the animation.
-- Various blog posts about Jekyll and [Stackoverflow](https://www.stackoverflow.com) posts with useful [Liquid](https://github.com/Shopify/liquid) snippets.
-
-## License
-All parts of helium Jekyll theme are free to use and abuse under the open-source [MIT license](http://opensource.org/licenses/mit-license.php).
-
-## TO DO
-- [ ] Add Ads Block to home page 
-- [ ] Minimize `.css` in `<head>` and all images for faster load times
-- [ ] 404 page styles
-- [ ] Create hightlight style for code parts
-
-## Help out
-Im [Antonio Trento](https://antoniotrento.github.io) and I'm looking for funds to be able to open my IT development company with many on-site projects, unfortunately they are hardly feasible without collaboration and an economic base.
-
-If you want to contribute you can donate ethereum or bitcoin:
-- [Donate Bitcoins](https://blockchain.info/address/1B9rDoFCndbsKXL9QiefUcUGUbJH9Y1i6M)
+    ```powershell
+        git add .
+        git commit -m "John Smith added himself as a member"
+        git push -u origin AddMember
+    ```
