@@ -13,14 +13,14 @@
     (Optional) If you arent already using github pages on your account you can preview this page by changing the repository name to match your username.
     - Go to Settings
     - Change the Repository name to "(Your UserName).github.io"
-    ![Rename Repo](https://github.com/RTPSUGMembers/rtpsugmembers.github.io/raw/master/assets/images/readme/Capture2.png)
+    ![Rename Repo](https://github.com/RTPSUGMembers/rtpsugmembers.github.io/blob/master/assets/images/readme/Capture2.png)
 You can then point your browser to "(Your UserName).github.io" to view the page.
 
     ### You have officially Forked a Repo!
 
 3. Next we will clone the repository. Any directory on your local system should work but for our example we will use C:\repo
     - Click Clone or Download and copy the http:// address provided.
-    ![Clone Repo](https://github.com/RTPSUGMembers/rtpsugmembers.github.io/raw/master/assets/images/readme/Capture3.png)
+    ![Clone Repo](https://github.com/RTPSUGMembers/rtpsugmembers.github.io/blob/master/assets/images/readme/Capture3.png)
     - Open PowerShell
 
     ```powershell
@@ -32,7 +32,7 @@ You can then point your browser to "(Your UserName).github.io" to view the page.
     #Replace rtpsugtest.github.io with your repository name
     ```
 
-    ![Console](https://github.com/RTPSUGMembers/rtpsugmembers.github.io/raw/master/assets/images/readme/console1.png)
+    ![Console](https://github.com/RTPSUGMembers/rtpsugmembers.github.io/blob/master/assets/images/readme/console1.PNG)
 
     If successful it should look like the above console.
     
@@ -43,7 +43,7 @@ You can then point your browser to "(Your UserName).github.io" to view the page.
     - From the PowerShell Console run:
     `git checkout -b AddMember'
 
-    ![Console](https://github.com/RTPSUGMembers/rtpsugmembers.github.io/raw/master/assets/images/readme/console2.png)
+    ![Console](https://github.com/RTPSUGMembers/rtpsugmembers.github.io/blob/master/assets/images/readme/console2.PNG)
 
 5. Now lets add our content and information page for ourselves in the members section of the website.
     - From the PowerShell Console in your local git folder run:
@@ -56,7 +56,7 @@ You can then point your browser to "(Your UserName).github.io" to view the page.
     - In notepad replace or remove all the relevant fields. Make sure to save when you are done.
     - The Image field will be a jpg that we will add in the next step make sure the name is unique, if you dont want to use your own image you can use sample.jpg, sample2.jpg, sample3.jpg, or sample4.jpg and skip the next step.
 
-    ![Console](https://github.com/RTPSUGMembers/rtpsugmembers.github.io/raw/master/assets/images/readme/notepad1.png)
+    ![Console](https://github.com/RTPSUGMembers/rtpsugmembers.github.io/blob/master/assets/images/readme/notepad1.PNG)
 
 6. Adding our image. As mentioned above you can use one of the samples. If you use your own image:
     - Please only add images of yourself
