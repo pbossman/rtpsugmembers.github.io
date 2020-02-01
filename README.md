@@ -125,12 +125,12 @@
 
     - Click 'Merge pull request'
 
-    ![Console](https://github.com/RTPSUGMembers/rtpsugmembers.github.io/blob/master/assets/images/readme/pull4.PNG)
+    ![Console](https://github.com/RTPSUGMembers/rtpsugmembers.github.io/blob/master/assets/images/readme/pull6.PNG)
 
     - Click 'Confirm'
     - Click 'Delete branch' slightly to the right
 
-    ![Console](https://github.com/RTPSUGMembers/rtpsugmembers.github.io/blob/master/assets/images/readme/pull4.PNG)
+    ![Console](https://github.com/RTPSUGMembers/rtpsugmembers.github.io/blob/master/assets/images/readme/pull7.PNG)
 
     Thats it you have now done a pull request against your master branch and merged it.
 
