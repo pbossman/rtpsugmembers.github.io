@@ -4,11 +4,11 @@
 ![Fork Click](https://github.com/RTPSUGMembers/rtpsugmembers.github.io/blob/master/assets/images/readme/Capture1.PNG)
 2. After the page refreshes you should notice that instead of saying:
 
-    ![Fork1](https://github.com/RTPSUGMembers/rtpsugmembers.github.io/raw/master/assets/images/readme/fork1.png)
+    ![Fork1](https://github.com/RTPSUGMembers/rtpsugmembers.github.io/blob/master/assets/images/readme/fork1.PNG)
 
     It should now say (with RTPSUGTest being your username):
 
-    ![Fork2](https://github.com/RTPSUGMembers/rtpsugmembers.github.io/raw/master/assets/images/readme/fork2.png)
+    ![Fork2](https://github.com/RTPSUGMembers/rtpsugmembers.github.io/blob/master/assets/images/readme/fork2.PNG)
 
     (Optional) If you arent already using github pages on your account you can preview this page by changing the repository name to match your username.
     - Go to Settings
