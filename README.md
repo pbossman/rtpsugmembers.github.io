@@ -14,7 +14,7 @@
     - Go to Settings
     - Change the Repository name to "(Your UserName).github.io"
     
-    ![Rename Repo](https://github.com/RTPSUGMembers/rtpsugmembers.github.io/blob/master/assets/images/readme/capture2.png)
+    ![Rename Repo](https://github.com/RTPSUGMembers/rtpsugmembers.github.io/blob/master/assets/images/readme/capture2.PNG)
     
     You can now point your browser to "(Your UserName).github.io" to view the page.
 
@@ -22,7 +22,7 @@
 
 3. Next we will clone the repository. Any directory on your local system should work but for our example we will use C:\repo
     - Click Clone or Download and copy the http:// address provided.
-    ![Clone Repo](https://github.com/RTPSUGMembers/rtpsugmembers.github.io/blob/master/assets/images/readme/capture3.png)
+    ![Clone Repo](https://github.com/RTPSUGMembers/rtpsugmembers.github.io/blob/master/assets/images/readme/capture3.PNG)
     - Open PowerShell
 
     ```powershell
