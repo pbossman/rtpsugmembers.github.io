@@ -1,7 +1,7 @@
 # How to add yourself to RTPSUGMembers
 ### Prerequisites: This guide assume Git and PowerShell are installed. An Image of yourself 400 by 400 pixels is used.
 1. We will start by forking the RTPSUGMembers repository. From the RTPSUGMembers [repo](https://github.com/RTPSUGMembers/rtpsugmembers.github.io) Click the Fork button in the top right corner.
-![Fork Click](https://github.com/RTPSUGMembers/rtpsugmembers.github.io/blob/master/assets/images/readme/Capture1.PNG)
+![Fork Click](https://github.com/RTPSUGMembers/rtpsugmembers.github.io/blob/master/assets/images/readme/capture1.PNG)
 2. After the page refreshes you should notice that instead of saying:
 
     ![Fork1](https://github.com/RTPSUGMembers/rtpsugmembers.github.io/blob/master/assets/images/readme/fork1.PNG)
@@ -14,7 +14,7 @@
     - Go to Settings
     - Change the Repository name to "(Your UserName).github.io"
     
-    ![Rename Repo](https://github.com/RTPSUGMembers/rtpsugmembers.github.io/blob/master/assets/images/readme/Capture2.png)
+    ![Rename Repo](https://github.com/RTPSUGMembers/rtpsugmembers.github.io/blob/master/assets/images/readme/capture2.png)
     
     You can now point your browser to "(Your UserName).github.io" to view the page.
 
@@ -22,7 +22,7 @@
 
 3. Next we will clone the repository. Any directory on your local system should work but for our example we will use C:\repo
     - Click Clone or Download and copy the http:// address provided.
-    ![Clone Repo](https://github.com/RTPSUGMembers/rtpsugmembers.github.io/blob/master/assets/images/readme/Capture3.png)
+    ![Clone Repo](https://github.com/RTPSUGMembers/rtpsugmembers.github.io/blob/master/assets/images/readme/capture3.png)
     - Open PowerShell
 
     ```powershell
