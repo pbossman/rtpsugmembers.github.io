@@ -151,7 +151,7 @@
     ![Console](https://github.com/RTPSUGMembers/rtpsugmembers.github.io/blob/master/assets/images/readme/newpull2.PNG)
 
     - On this page you will put in comments for your pull request, this will be used by the owner of the repository to decide to accept your request.
-    - After enter the details of your request click "Create pull request"
+    - After you enter the details of your request click "Create pull request"
 
     ![Console](https://github.com/RTPSUGMembers/rtpsugmembers.github.io/blob/master/assets/images/readme/newpull3.PNG)
 
