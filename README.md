@@ -56,7 +56,7 @@
     Make sure to change 'YourName.md' to your name or something unique and identifiable.
 
     - In notepad replace or remove all the relevant fields. Make sure to save when you are done.
-    - The Image field will be a jpg that we will add in the next step make sure the name is unique, if you dont want to use your own image you can use sample.jpg, sample2.jpg, sample3.jpg, or sample4.jpg and skip the next step.
+    - The Image field will be a jpg that we will add in the next step make sure the name is unique, if you dont want to use your own image you can use sample.jpg, sample2.jpg, sample3.jpg, sample4.jpg, sample5.jpg or sample6.jpg and skip the next step.
 
     ![Console](https://github.com/RTPSUGMembers/rtpsugmembers.github.io/blob/master/assets/images/readme/notepad1.PNG)
 
@@ -64,7 +64,7 @@
     - Please only add images of yourself
     - Images should be *appropriate*
     - Make sure the image is reasonably sized (400x400)
-    - Add the image to C:\repo\rtpsugtest.github.io\assets\images\members\
+    - Add the image to 'C:\Repo\TestRTPSUGMembers.github.io\_members\images'
 
 7. Now we will push our changes back into git hub.
 
@@ -92,9 +92,9 @@
 
     ![Console](https://github.com/RTPSUGMembers/rtpsugmembers.github.io/blob/master/assets/images/readme/branch1.PNG)
 
-    - Once you have switched branches you should see the message about the most recent commit you made. You can also click into the _members folder and see the file we added. Assuming everything is good we will move to the next step.
+    - Once you have switched branches you should see the message about the most recent commit you made. You can also click into the _members folder and see the files we added. Assuming everything is good we will move to the next step.
 
-9. In order for our Github Page to update our changes need to be a part of the Master Branch. We will do that by creating a Pull Request. This Pulls our changes from 'AddMember' into 'Master'.
+9. In order for our Github Page to update our changes need them to be a part of the Master Branch. We will merge our branch with master by first submittein a pull request this pulls our changes from 'AddMember' into 'Master'.
 
     - Click the 'Pull requests' tab toward the top, then select the green 'New pull request' button.
 
@@ -137,6 +137,9 @@
     - If you browse to your github page site it should update shortly https://username.github.io/ for our example https://rtpsugtest.github.io/
 
 
-
+    ![Console](https://github.com/RTPSUGMembers/rtpsugmembers.github.io/blob/master/assets/images/readme/newpull1.PNG)
+    ![Console](https://github.com/RTPSUGMembers/rtpsugmembers.github.io/blob/master/assets/images/readme/newpull2.PNG)
+    ![Console](https://github.com/RTPSUGMembers/rtpsugmembers.github.io/blob/master/assets/images/readme/newpull3.PNG)
+    ![Console](https://github.com/RTPSUGMembers/rtpsugmembers.github.io/blob/master/assets/images/readme/newpull4.PNG)
 
 
