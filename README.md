@@ -136,10 +136,26 @@
 
     - If you browse to your github page site it should update shortly https://username.github.io/ for our example https://rtpsugtest.github.io/
 
+10. For the final part of this tutorial you will commit your change back to the original repository that you forked.
 
+    - Start by navigating to the main page of your repository and verifying that you are on the master branch
+    - Click 'New pull request'
+    
     ![Console](https://github.com/RTPSUGMembers/rtpsugmembers.github.io/blob/master/assets/images/readme/newpull1.PNG)
+    
+    - On the next screen verify the left has "RTPSUGMember/rtpsugmembers.github.io" and "base:master"
+    - Verify that the right contains your repository and "base:master"
+    - Click 'Create pull request'
+
     ![Console](https://github.com/RTPSUGMembers/rtpsugmembers.github.io/blob/master/assets/images/readme/newpull2.PNG)
+
+    - On this page you will put in comments for your pull request, this will be used by the owner of the repository to decide to accept your request.
+    - After enter the details of your request click "Create pull request"
+
     ![Console](https://github.com/RTPSUGMembers/rtpsugmembers.github.io/blob/master/assets/images/readme/newpull3.PNG)
+
+    - THATS IT! now just wait for someone to get around to accepting your request. Get out there and start contributing to EVERYTHING!
+
     ![Console](https://github.com/RTPSUGMembers/rtpsugmembers.github.io/blob/master/assets/images/readme/newpull4.PNG)
 
 
