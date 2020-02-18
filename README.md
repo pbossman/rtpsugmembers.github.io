@@ -144,7 +144,8 @@
     ![Console](https://github.com/RTPSUGMembers/rtpsugmembers.github.io/blob/master/assets/images/readme/newpull1.PNG)
     
     - On the next screen verify the left has "RTPSUGMember/rtpsugmembers.github.io" and "base:master"
-    - Verify that the right contains your repository and "base:master"
+    - Verify that the right contains your repository and "compare:master"
+    - If you scroll down you will see details of the differences between the two versions.
     - Click 'Create pull request'
 
     ![Console](https://github.com/RTPSUGMembers/rtpsugmembers.github.io/blob/master/assets/images/readme/newpull2.PNG)
