@@ -1,0 +1,70 @@
+---
+layout: index
+title: Our Members
+group: navigation
+tagline:
+tags : [members, components]
+img :
+img-mobile :
+author : RTPSUG
+css:
+js:
+keywords: components, demo
+canonical: https://rtpsug.com
+---
+{% include JB/setup %}
+<!-- Content Area Start -->
+<div id="content">
+  <div class="container">
+    <!-- row start -->
+    <div class="row">
+      <div class="col-md-12">
+        <div class="page-header-title">
+          <h2 class="heading-title text-center">RTPSUG-Members</h2>
+        </div>
+        <!-- Team Members 01 -->
+        <div class="team-members-tow mtb-50">
+          <div class="row">
+            <!--START TEAM LOOP-->
+            {% for rtpsug_member in site.members %}
+            <div class="col-sm-6 col-md-4">
+              <!-- Team Item Starts -->
+              <div class="team-item">
+                <figure class="team-profile">
+                  <img src="{{ BASE_PATH }}/members/images/{{ rtpsug_member.img }}" alt="">
+                  <figcaption class="rtpsug-members">
+                    <div class="details col-md-12">
+                      <p class="content-white">{{ rtpsug_member.slogan }}</p>
+                      <hr class="small-divider border-white">
+                      <ul class="social-icons text-center">
+                        {% if rtpsug_member.twitter %}<li><a href="https://twitter.com/{{ rtpsug_member.twitter }}"
+                            target="_blank" title="@{{ rtpsug_member.twitter }}"><i class="fa fa-twitter"
+                              aria-hidden="true"></i></a></li>{% endif %}
+                        {% if rtpsug_member.linkedin %}<li><a
+                            href="https://www.linkedin.com/in/{{ rtpsug_member.linkedin }}/" target="_blank"
+                            title="{{ rtpsug_member.linkedin }}"><i class="fa fa-linkedin" aria-hidden="true"></i></a>
+                        </li>{% endif %}
+                        {% if rtpsug_member.website %}<li><a href="{{ rtpsug_member.website }}" target="_blank"
+                            title="{{ rtpsug_member.website }}"><i class="fa fa-cloud" aria-hidden="true"></i></a></li>
+                        {% endif %}
+                      </ul>
+                    </div>
+                  </figcaption>
+                </figure>
+                <div class="info">
+                  <h2>
+                    {{ rtpsug_member.name }}
+                  </h2>
+                </div>
+              </div>
+              <!-- Team Item Ends -->
+            </div>
+            {% endfor %}
+            <!--END TEAM LOOP-->
+          </div>
+          <!-- End Team Members 01 -->
+        </div>
+      </div>
+    </div>
+  </div>
+  <!-- Content Area End -->
