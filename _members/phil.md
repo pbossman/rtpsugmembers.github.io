@@ -1,6 +1,6 @@
 ---
 name : Phil Bossman
-img : team-08.jpg
+img : phil-b.png
 twitter : Schlauge
 website : https://schlauge.com
 linkedin : phil-bossman-45b960a
